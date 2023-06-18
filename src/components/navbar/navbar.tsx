@@ -1,38 +1,25 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import './navbar.css';
-import BUTTON from '../button/button';
 
-const Navbar: React.FC = () => {
+const navbar = () => {
   return (
-    <AppBar position="static" className="nav-container">
-      <Toolbar className="navbar">
-        <Typography className="logo">{'</>'}</Typography>
-        <div className="nav-content">
-          <Typography variant="body1" sx={{ mr: 2 }}>
-            Home
-          </Typography>
-          <Typography variant="body1" sx={{ mr: 2 }}>
-            About
-          </Typography>
-          <Typography variant="body1" sx={{ mr: 2 }}>
-            Skills
-          </Typography>
-          <Typography variant="body1" sx={{ mr: 2 }}>
-            Portfolio
-          </Typography>
-          <Typography variant="body1" sx={{ mr: 2 }}>
-            Contact
-          </Typography>
-        </div>
-        <div className="button">
-          <BUTTON />
-        </div>
-        <MenuRoundedIcon className="menu-icon" />
-      </Toolbar>
-    </AppBar>
+    <div className="navbar">
+      <div className="logo">{'</>'}</div>
+      <div className="nav-contents">
+        <ul className="nav-list">
+          <li className="nav-items">
+            <span className="nav-item-1">Home</span>
+          </li>
+          <li className="nav-items">About</li>
+          <li className="nav-items">Skills</li>
+          <li className="nav-items">Portfolio</li>
+          <li className="nav-items">Contact</li>
+        </ul>
+      </div>
+      <div className="button-container">
+        <div className="button">Hire Me</div>
+      </div>
+    </div>
   );
 };
 
-export default Navbar;
+export default navbar;

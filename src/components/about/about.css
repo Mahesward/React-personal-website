@@ -23,7 +23,6 @@
 .container .about .content {
   margin-top: 1rem;
   color: white;
-  line: 0.1rem;
 }
 @media (max-width: 768px) {
   .container {
