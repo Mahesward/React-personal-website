@@ -1,4 +1,3 @@
-import CHIP from '../chip/chip';
 import './about.css';
 
 const about = () => {
@@ -7,9 +6,9 @@ const about = () => {
       <div className="image">N</div>
       <div className="about">
         <div className="chip">
-          <CHIP label="Who Am I" />
+          <div className="chip">Who I Am</div>
         </div>
-        <p className='about-me'>About Me</p>
+        <p className="about-me">About Me</p>
         <p className="content">
           I am a self-taught MERN stack developer, driven by a passion for coding and building web applications and
           skilled in all aspects of the development and deployment process, from designing and implementing

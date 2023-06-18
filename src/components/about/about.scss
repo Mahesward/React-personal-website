@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  margin-top: 4rem;
+  margin-top: 6rem;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: 1rem;
@@ -16,11 +16,22 @@
   .about {
     color: white;
 
+    .chip {
+      color: #ffb742;
+      background-color: #32363a;
+      width: max-content;
+      padding: 5px;
+      text-align: center;
+      border-radius: 1rem;
+      font-size: large;
+    }
+
     .about-me {
+      margin-top: .25rem;
       font-size: 2rem;
       font-weight: 600;
     }
-    
+
     .content {
       margin-top: 1rem;
       color: white;
@@ -29,5 +40,5 @@
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-  };
+  }
 }

@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  margin-top: 4rem;
+  margin-top: 6rem;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: 1rem;
@@ -16,7 +16,18 @@
 .container .about {
   color: white;
 }
+.container .about .chip {
+  color: #ffb742;
+  background-color: #32363a;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: large;
+}
 .container .about .about-me {
+  margin-top: 0.25rem;
   font-size: 2rem;
   font-weight: 600;
 }
