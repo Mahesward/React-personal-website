@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  margin-top: 4rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+
+  .image {
+    display: flex;
+    height: max-content;
+    background-color: #ffb742;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about {
+    color: white;
+
+    .about-me {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    
+    .content {
+      margin-top: 1rem;
+      color: white;
+      lne
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}

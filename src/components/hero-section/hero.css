@@ -1,0 +1,34 @@
+.hero-container {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container .greeting {
+  color: white;
+  font-size: 2rem;
+}
+.hero-container .greeting .greeting-span {
+  color: #ffb742;
+}
+.hero-container .whoami {
+  color: white;
+  font-size: 2.5rem;
+}
+.hero-container .whoami-2 {
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.hero-container .profile {
+  margin-top: 5rem;
+  width: 16rem;
+  height: 16rem;
+  background: #FFB742;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=hero.css.map */
