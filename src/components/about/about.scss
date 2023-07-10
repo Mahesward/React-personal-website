@@ -8,33 +8,36 @@
   .image {
     display: flex;
     height: max-content;
-    background-color: #ffb742;
+    background-color: var(--base-color);
     justify-content: center;
     align-items: center;
   }
 
   .about {
-    color: white;
+    color: var(--dark);
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     .chip {
-      color: #ffb742;
-      background-color: #32363a;
+      color: orange;
+      background-color: var(--chip);
       width: max-content;
       padding: 5px;
       text-align: center;
-      border-radius: 1rem;
       font-size: large;
     }
 
     .about-me {
-      margin-top: .25rem;
+      margin-top: 0.25rem;
       font-size: 2rem;
       font-weight: 600;
     }
 
     .content {
       margin-top: 1rem;
-      color: white;
+      color: var(--dark);
+      font-size: 1rem;
+      line-height: 1.5;
     }
   }
 

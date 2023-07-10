@@ -7,26 +7,26 @@
   align-items: center;
 
   .greeting {
-    color: white;
+    color: var(--dark);
     font-size: 2rem;
     .greeting-span {
-      color: #ffb742;
+      color: var(--base-color);
     }
   }
   .whoami {
-    color: white;
+    color: var(--dark);
     font-size: 2.5rem;
   }
   .whoami-2 {
     margin-top: 2rem;
-    color: white;
+    color: var(--dark);
     font-size: 1.5rem;
   }
-  .profile{
+  .profile {
     margin-top: 5rem;
     width: 16rem;
     height: 16rem;
-    background: #FFB742;
+    background: var(--base-color);
     border-radius: 50%;
     display: flex;
     align-items: center;

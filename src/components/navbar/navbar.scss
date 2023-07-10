@@ -6,12 +6,14 @@
   .logo {
     font-size: 2rem;
     font-weight: 600;
-    color: #ffb742;
+    color: var(--base-color);
     width: 30%;
   }
 
   .nav-contents {
-    color: #fff;
+    color: var(--dark);
+    font-size: medium;
+    font-weight: 600;
     width: 40%;
     margin-top: 1rem;
     padding-left: 2rem;
@@ -22,21 +24,21 @@
       align-items: center;
       list-style: none;
       .nav-item-1 {
-        color: #ffb742;
+        color: var(--base-color);
       }
     }
   }
   .button-container {
     width: 30%;
     .button {
-      background-color: #ffb742;
+      background-color: var(--chip);
+      color: var(--dark);
       width: 5rem;
       float: right;
       padding: 7px;
       text-align: center;
-      border-radius: 2rem;
       font-size: large;
-      font-weight: 400;
+      font-weight: 500;
     }
   }
   @media (max-width: 768px) {
