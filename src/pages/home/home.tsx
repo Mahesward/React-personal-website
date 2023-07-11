@@ -28,10 +28,18 @@ const home = () => {
       />
 
       <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
+      <div className="nav-wrapper">
+        <Navbar />
+      </div>
+      <div className="hero-wrapper">
+        <Hero />
+      </div>
+      <div className="about-wrapper">
+        <About />
+      </div>
+      <div className="skills-wrapper">
+        <Skills />
+      </div>
     </>
   );
 };

@@ -4,75 +4,75 @@ import './skills.scss';
 const skills = [
   {
     language: 'js',
-    img: './javascript.png',
+    img: './skills/javascript.png',
   },
   {
     language: 'react',
-    img: './react_logo.png',
+    img: './skills/react_logo.png',
   },
   {
     language: 'node',
-    img: './nodejs.png',
+    img: './skills/nodejs.png',
   },
   {
     language: 'mongodb',
-    img: './mongodb.png',
+    img: './skills/mongodb.png',
   },
   {
     language: 'ts',
-    img: './typescript.png',
+    img: './skills/typescript.png',
   },
   {
     language: 'aws',
-    img: './aws.png',
+    img: './skills/aws.png',
   },
   {
     language: 'nginx',
-    img: './nginx.png',
+    img: './skills/nginx.png',
   },
   {
     language: 'docker',
-    img: './docker.png',
+    img: './skills/docker.png',
   },
   {
     language: 'figma',
-    img: './figma.png',
+    img: './skills/figma.png',
   },
   {
     language: 'firebase',
-    img: './firebase.png',
+    img: './skills/firebase.png',
   },
   {
     language: 'postman',
-    img: './postman.png',
+    img: './skills/postman.png',
   },
   {
     language: 'git',
-    img: './git.png',
+    img: './skills/git.png',
   },
   {
     language: 'github',
-    img: './github.png',
+    img: './skills/github.png',
   },
   {
     language: 'tailwind',
-    img: './tailwindcss.png',
+    img: './skills/tailwindcss.png',
   },
   {
     language: 'materialui',
-    img: './materialui.png',
+    img: './skills/materialui.png',
   },
   {
     language: 'html',
-    img: './html.png',
+    img: './skills/html.png',
   },
   {
     language: 'css',
-    img: './css.png',
+    img: './skills/css.png',
   },
   {
     language: 'sass',
-    img: './sass.png',
+    img: './skills/sass.png',
   },
 ];
 
@@ -85,6 +85,9 @@ function skils() {
         </div>
         <p className="about-me">What My Programming Skills Includes?</p>
         <p className="content">
+          I am a self-taught MERN stack developer, driven by a passion for coding and building web applications and
+          skilled in all aspects of the development and deployment process, from designing and implementing
+          features to testing and troubleshooting.
         </p>
         <div className="button">Hire Me</div>
       </div>
