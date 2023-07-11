@@ -3,7 +3,9 @@ import './about.scss';
 const about = () => {
   return (
     <div className="container">
-      <div className="image">N</div>
+      <div className="image">
+        l
+      </div>
       <div className="about">
         <div className="chip">
           <div className="chip">Who I Am</div>

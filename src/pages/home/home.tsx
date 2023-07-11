@@ -1,9 +1,11 @@
 import { motion, useScroll } from 'framer-motion';
+import { Link, animateScroll } from 'react-scroll';
 import AnimatedCursor from 'react-animated-cursor';
 import Navbar from '../../components/navbar/navbar';
 import Hero from '../../components/hero-section/hero';
 import About from '../../components/about/about';
 import Skills from '../../components/skills/skills';
+import FeaturedWorks from '../../components/featured_works/featured_works';
 import './home.scss';
 
 const home = () => {
@@ -31,15 +33,24 @@ const home = () => {
       <div className="nav-wrapper">
         <Navbar />
       </div>
-      <div className="hero-wrapper">
-        <Hero />
-      </div>
-      <div className="about-wrapper">
-        <About />
-      </div>
-      <div className="skills-wrapper">
-        <Skills />
-      </div>
+      <Link to="hero-section" spy={true} smooth={true} offset={-70} duration={500} className="scroll-link">
+        <div id="hero-section" className="hero-wrapper">
+          <Hero />
+        </div>
+      </Link>
+      <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500} className="scroll-link">
+        <div id="about-section" className="about-wrapper">
+          <About />
+        </div>
+      </Link>
+      <Link to="skills-section" spy={true} smooth={true} offset={-70} duration={500} className="scroll-link">
+        <div id="skills-section" className="skills-wrapper">
+          <Skills />
+        </div>
+      </Link>
+      {/* <div className="featured-wrapper">
+        <FeaturedWorks />
+      </div> */}
     </>
   );
 };
