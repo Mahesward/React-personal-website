@@ -1,11 +1,12 @@
 import { motion, useScroll } from 'framer-motion';
-import { Link, animateScroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import AnimatedCursor from 'react-animated-cursor';
 import Navbar from '../../components/navbar/navbar';
 import Hero from '../../components/hero-section/hero';
 import About from '../../components/about/about';
 import Skills from '../../components/skills/skills';
 import FeaturedWorks from '../../components/featured_works/featured_works';
+import Footer from '../../components/footer/footer';
 import './home.scss';
 
 const home = () => {
@@ -48,9 +49,14 @@ const home = () => {
           <Skills />
         </div>
       </Link>
+
       {/* <div className="featured-wrapper">
         <FeaturedWorks />
       </div> */}
+
+      <div id="footer-section" className="footer-wrapper">
+        <Footer />
+      </div>
     </>
   );
 };

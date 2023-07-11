@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div className="container">
       <div className="image">
-        l
+        <img className='image-content' src="./hero/hero-bg.svg" alt="" />
       </div>
       <div className="about">
         <div className="chip">
@@ -19,6 +19,7 @@ const about = () => {
           learner and am eager to take on new challenges and expand my skill set. With a strong work ethic. I am
           confident in my ability to excel in any development role.
         </p>
+        <div className="button">Hire Me</div>
       </div>
     </div>
   );

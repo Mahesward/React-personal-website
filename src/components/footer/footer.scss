@@ -1,0 +1,50 @@
+.footer-container {
+  background-color: var(--chip);
+  padding: 20px;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  .footer-main-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-main-list-item {
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      .info-base {
+        margin-bottom: 10px;
+      }
+
+      .useful-links-header,
+      .social-media-header {
+        margin-bottom: 10px;
+      }
+
+      .useful-links-ul,
+      .social-media-ul {
+        list-style-type: none;
+        padding: 0;
+
+        .useful-links-li,
+        .social-media-li {
+          margin-bottom: 5px;
+        }
+      }
+
+      .contact-me {
+        margin-bottom: 10px;
+      }
+
+      input[type='email'] {
+        width: 100%;
+        padding: 5px;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .container {
   display: grid;
-  margin-top: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: 1rem;
@@ -8,9 +9,20 @@
   .image {
     display: flex;
     height: max-content;
-    background-color: var(--base-color);
     justify-content: center;
     align-items: center;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      .image-content {
+        width: 70%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .image-content {
+        width: 100%;
+      }
+    }
   }
 
   .about {
@@ -38,6 +50,17 @@
       color: var(--dark);
       font-size: 1rem;
       line-height: 1.5;
+    }
+
+    .button {
+      background-color: var(--chip);
+      color: orange;
+      width: 5rem;
+      padding: 7px;
+      text-align: center;
+      font-size: large;
+      font-weight: 400;
+      margin-top: 2rem;
     }
   }
 
